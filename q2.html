@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a="chai_ayt_ni_ay";res="";
+for(i=0;i<a.length;i++){
+    if(a[i]=="_"&&(a.charCodeAt(i+1)>=97||a.charCodeAt(i+1)<=122))
+    {
+        
+      
+        b=a[i+1].toUpperCase();
+        res=res+b;
+   
+    
+    }
+    else{
+        res=res+a[i];
+    }
+}
+console.log(res);
+    </script>
+</body>
+</html>
